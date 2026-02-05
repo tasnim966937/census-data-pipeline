@@ -1,0 +1,31 @@
+# Census Data Pipeline Requirements
+# Author: Mir Md Tasnim Alam
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Geospatial
+geopandas>=0.14.0
+shapely>=2.0.0
+pyproj>=3.6.0
+
+# API and web
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Database connectivity
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # PostgreSQL/PostGIS
+geoalchemy2>=0.14.0  # SQLAlchemy GIS extension
+
+# File formats
+pyarrow>=14.0.0  # Parquet support
+openpyxl>=3.1.0  # Excel support
+
+# Configuration
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.66.0  # Progress bars
